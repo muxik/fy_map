@@ -74,7 +74,7 @@ const option = {
     ],
     inRange: {
       symbol: "rect",
-      color: ["#ffffed", "#9c0505"]
+      color: ["rgb(231, 184, 184)", "#9c0505"]
     },
     itemWidth: 40,
     itemHeight: 19
@@ -96,7 +96,7 @@ const option = {
 };
 
 export default {
-  name: "HelloWorld",
+  name: "Map",
   mounted() {
     this.getData();
     this.mychart = echarts.init(this.$refs.mapbox);
